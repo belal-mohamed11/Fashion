@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Belle fashion Center</title>
+</head>
+<body>
+    <div class="banner">
+
+    </div>
+    <div class="about">
+
+        <h3>Welcome to Belle fashion Center</h3>
+                   <p>Here Where you can find all fashion needs which suits every man type</p>
+                   <p style="margin-bottom: 30px;">all you need to send us your tall and your weight with shoulder size and hips and leave the rest for us we will contact you with the best outfit which fits your body and reflects your beauty</p>
+                   <a href="tel:01032045067">Contact us now</a>
+                   <a href="https://api.whatsapp.com/send?phone=201000000000">Whatsapp us now</a>
+       </div>
+    <div class="service">
+        <div>
+            <img src="./Images/4.webp" alt="services">
+        </div>
+        <div class="responsive">
+            <h2>Make Custom outfit for you </h2>
+            <form onsubmit="validateForm(event)">
+                <label for="fname">Full name :</label><br>
+                <input type="text" id="fname" name="fname"  required><br>
+                <label for="height">Your Height :</label><br>
+                <input type="text" id="height" name="height" required><br>
+                <label for="weight">Your weight :</label><br>
+                <input type="text" id="weight" name="weight" required><br>
+                <label for="waist">Your waist :</label><br>
+                <input type="text" id="waist" name="waist" required><br>
+                <label for="shoulder">Your shoulder :</label><br>
+                <input type="text" id="shoulder" name="shoulder" required><br>
+                <label for="email">Your email :</label><br>
+                <input type="email" id="email" name="email"  required><br>
+                <label for="phone">Your mobile number :</label><br>
+                <input type="tel" id="phone" name="phone" required><br>
+  
+                <label for="style">Choose your style :</label><br>
+                  <select id="style" name="style" required>
+                   <option value="Modern">Modern</option>
+                   <option value="Modern Classic">Modern classic</option>
+                   <option value="Classic">Classic</option>
+                   <option value="90's">90's</option>
+                  </select>
+              
+              
+              <br><br>
+              <input type="submit" value="Order Now" id="submit" >
+              </form>
+          
+        </div>
+    </div>
+   
+
+    <script src="script.js"></script>
+</body>
+</html>
